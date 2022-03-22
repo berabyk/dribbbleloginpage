@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.title{
+    font-weight: 800;
+    font-size: 24px;
+}
+.loginForm .title{
+    font-weight: 700;
+    font-size: 14px;
+}
+.container{
+    background-color: white;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.box1{
+    background-color: #FFCC81;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 45px;
+    width: 337px;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 800;
+    font-size: 30px;
+}
+.computer{
+    width: 426px;
+    height: 309px;
+}
+.box2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.buttonArea{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.googleButton{
+    width: 298px;
+    height: 48px;
+    text-align: center;
+    display: flex;
+    background-color: #3F96D4;
+    color: white;
+    border-radius: 5px;
+    margin-right: 4px;
+    align-items: center;
+    padding-left: 10px;
+    font-weight: 700;
+}
+.buttonArea span{
+    margin: 0 auto;
+}
+.socialButton{
+    width: 48px;
+    height: 48px;
+    background-color: #F2F2F2;
+    margin-left: 21px;
+    display: flex;
+    color: #878888;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.loginArea{
+    display: flex;
+    flex-direction: column;
+    width: 432px;
+}
+.lineArea{
+    display: flex;
+    margin-top: 15px;
+    color: #CFCFCF;
+    width: 100%;
+}   
+hr {
+    width: 40%;
+    height: 0px;
+    background-color: #CFCFCF;
+    margin: auto 0px;
+}
+.nameArea{ 
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    width: 185px;
+}
+
+.loginForm{
+    margin-top: 25px;
+}
+.formInput{
+    width: -webkit-fill-available;
+    border: none;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    height: 48px;
+    margin-bottom: 25px;
+    margin-top: 8px;
+    padding-left: 22px;
+}
+.checkArea{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    align-items: center;
+    color: #878888;
+    margin-top: -5px;
+}
+.checkBox{
+    background-color: #878888;
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+}
+.signIn{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button{
+    background-color: #FF467E;
+    color: white;
+    width: 185px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
